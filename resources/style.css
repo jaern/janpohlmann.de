@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600|Source+Serif+Pro:400,600&subset=all');
 
 html {
-    font-size: calc(2vw + 10px);
+    font-size: calc(14.44px + (10vw / 9));
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     color: black;
     line-height: 1.5;
-    width: calc(25px + 85vw);
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -27,20 +27,17 @@ header {
     html {
         font-size:20px;
     }
-    body {
-        width: 90vw;
-    }
     #portraits {
         width: 137vw;
         margin-left: -47vw;
     }
 }
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1400px) {
     html {
         font-size:30px;
     }
     body {
-        width: 1200px;
+        width: 1260px;
     }
 }
 
